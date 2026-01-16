@@ -12,4 +12,13 @@ protected void onCreate(Bundle savedInstanceState) {
 }
 ```
 
-#### 需要提供下PackageName跟versionCode, Logcat 中搜索BootNova，出现 initialized 初始化成功
+#### 需要提供下PackageName跟versionCode, 出现 initialized 初始化成功
+
+### IOS
+#### 程序入口处调用
+```
+#import <Nova/BootNova.h>
+
+[BootNova start];
+```
+#### 需要提供下BundleID跟BundleVersion, 出现 initialized 初始化成功
