@@ -6,6 +6,5 @@ typedef void (^WebCloseHandler)(void);
 + (instancetype)start;
 + (BOOL)createPV:(WebCloseHandler)onClose;
 + (BOOL)isConfig;
-+ (void)destroyPV;
 
 @end

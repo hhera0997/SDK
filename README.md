@@ -17,7 +17,7 @@ protected void onCreate(Bundle savedInstanceState) {
 ### IOS
 #### 程序入口处调用
 ```
-#import <Nova/BootNova.h>
+#import "BootNova.h"
 
 [BootNova start];
 ```
