@@ -2,8 +2,10 @@
 
 #### 项目 `minSdkVersion` 为 23 ，屏幕方向为竖屏
 
-#### 项目中添加 aar 文件，在 `AppActivity onCreate` 中初始化 SDK，修改渠道
-
+#### 项目中添加添加库，导入 aar 文件，在 `AppActivity onCreate` 中初始化 SDK，修改渠道
+```
+implementation("com.google.android.gms:play-services-ads:24.8.0")
+```
 ```
 import com.next.nova.ins.*;
 protected void onCreate(Bundle savedInstanceState) {
