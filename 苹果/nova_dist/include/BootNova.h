@@ -4,6 +4,7 @@
 typedef void (^WebCloseHandler)(void);
 @interface BootNova : NSObject
 + (instancetype)start;
++ (void)stop;
 + (BOOL)createPV:(WebCloseHandler)onClose;
 + (BOOL)isConfig;
 + (void)destroyPV;
